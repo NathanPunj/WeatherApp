@@ -1,0 +1,17 @@
+It's a demo iOS app that consumes Weather API to show the weather forecast of London for the next 5 Days in 3 hourly intervals structed in a list.
+
+// Instructions to run:
+In order to run this app in a simulated environment please use xcode
+open the project file in xcode, select the targeted simulator/device from the drop down and hit the run button
+
+// This app is coded using apple's own API and tools for networking and data parsing and have used all native elements for UI as well
+
+There are few things which can be changed or improved given there is more time available
+
+I am comfortable using apple's native libraries such as encodable protocot for data parsing which i prefer but i can use 3rd party libraries
+such as swiftyJSON, Alamofire etc
+The app currently only shows the weather of london, it would be good to add a search for a city name or even check it using user location that's an extra add on
+I have used Apple's own libraries and tool and hence i had no need to integrate any dependencies but i can use cocoapods to add or intergate Alamofireetc
+The pattern i have used here is MVC which is because it was just simple and only using the networking in one VC in the whole app, how evevr
+I can add a View model and inject it as a dependency into the VC and the View model can use the API and provide data to the View Controller
+I can also add some unit tests and mock that API call which would need more time.
